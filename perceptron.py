@@ -13,6 +13,6 @@ Y = np.array([0, 0, 0, 1])
 w = np.array([1, 1])
 b = -1.2
 
-# Prédictions
+# Prédictions pour AND
 results = list(map(lambda x: predict(x, w, b), X))
 print("AND :", results) 
