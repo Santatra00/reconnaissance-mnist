@@ -11,7 +11,7 @@ Y = np.array([0, 0, 0, 1])
 
 # Poids et biais appris pour AND (à la main ou via entraînement)
 w = np.array([1, 1])
-b = -1.5
+b = -1.2
 
 # Prédictions
 results = list(map(lambda x: predict(x, w, b), X))
