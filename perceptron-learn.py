@@ -47,7 +47,7 @@ print("\nPoids appris :", w)
 print("Biais appris :", b)
 
 # Test final
-print("\nTest du perceptron :")
+print("\n 🔧 Test du perceptron :")
 for x in X:
     z = x[0] * w[0] + x[1] * w[1] + b
     y_pred = step(z)
